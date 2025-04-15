@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cab Fare Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="cabFareCalculator">
+        <div>
+            <label for="destination1">Pickup Destination</label>
+            <input type="text" id="destination1" placeholder="Nagpur" disabled>
+        </div>
+        <label for="destination2">Drop Destination</label>
+        <div id="searchBoxContainer">
+            <input type='text' id='destination2' placeholder='Enter destination name'/>
+        </div>
+        <div class="inline-container">
+            <button onclick="calculateDistanceAndFare()">Calculate Fare</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
